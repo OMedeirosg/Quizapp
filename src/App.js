@@ -69,7 +69,7 @@ function App() {
           </select>
         </div>
         <div className="form-group">
-          <label htmlFor="category">Category</label>
+          <label htmlFor="Amount">Amount</label>
           <input
             type="number"
             id="amount"
@@ -84,7 +84,7 @@ function App() {
         </div>
       </form>
       <div className="container">
-        <FlashcardList flashcards={flashcards} />;
+        <FlashcardList flashcards={flashcards} />
       </div>
     </>
   );
